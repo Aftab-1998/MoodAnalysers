@@ -12,12 +12,27 @@ namespace TestCases
         /// </summary>
         [TestMethod]
         
-        public void GivenSadMoodShouldReturnSAD()
+        //public void GivenSadMoodShouldReturnSAD()
         
+        //{
+        //    //Arrange
+        //    string expected = "SAD";
+        //    string message = "I am in Sad Mood";
+        //    MoodStatus moodAnalyse = new MoodStatus(message);
+
+        //    //Act
+        //    string mood = moodAnalyse.AnalyseMood();
+
+        //    //Assert
+        //    Assert.AreEqual(expected, mood);
+        //}
+
+        public void GivenAnyMoodShouldReturnHAPPY()
+
         {
             //Arrange
-            string expected = "SAD";
-            string message = "I am in Sad Mood";
+            string expected = "HAPPY";
+            string message = "I am in Happy Mood";
             MoodStatus moodAnalyse = new MoodStatus(message);
 
             //Act
